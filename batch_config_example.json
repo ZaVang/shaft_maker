@@ -1,0 +1,101 @@
+{
+  "base_template": {
+    "width": 1920,
+    "height": 1080,
+    "border_height": 50,
+    "line_density": 3,
+    "line_opacity": 0.3
+  },
+  "scenes": [
+    {
+      "name": "scene_01",
+      "background_color": "#2c1810",
+      "border_color": "#8b4513",
+      "line_color": "#d2b48c",
+      "text_layers": [
+        {
+          "text": "新房风格测试",
+          "size": 60,
+          "color": "#f5deb3",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": 0,
+          "y_offset": -100,
+          "direction": "horizontal_lr",
+          "flip": "none",
+          "rotation": 0
+        },
+        {
+          "text": "场景一",
+          "size": 40,
+          "color": "#daa520",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": 0,
+          "y_offset": 50,
+          "direction": "horizontal_lr",
+          "flip": "none",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "name": "scene_02",
+      "background_color": "#1a0d0d",
+      "border_color": "#8b0000",
+      "line_color": "#cd5c5c",
+      "text_layers": [
+        {
+          "text": "第二个场景",
+          "size": 65,
+          "color": "#ffb6c1",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": 0,
+          "y_offset": -80,
+          "direction": "horizontal_lr",
+          "flip": "none",
+          "rotation": 0
+        },
+        {
+          "text": "测试文字",
+          "size": 35,
+          "color": "#ff69b4",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": 0,
+          "y_offset": 60,
+          "direction": "horizontal_lr",
+          "flip": "none",
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "name": "scene_03",
+      "background_color": "#0d0d1a",
+      "border_color": "#000080",
+      "line_color": "#4169e1",
+      "text_layers": [
+        {
+          "text": "垂直文字测试",
+          "size": 50,
+          "color": "#87ceeb",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": -200,
+          "y_offset": 0,
+          "direction": "vertical",
+          "flip": "none",
+          "rotation": 0
+        },
+        {
+          "text": "SCENE THREE",
+          "size": 40,
+          "color": "#6495ed",
+          "font_path": "fonts/Songti.ttc",
+          "x_offset": 200,
+          "y_offset": 0,
+          "direction": "horizontal_lr",
+          "flip": "none",
+          "rotation": 45
+        }
+      ]
+    }
+  ]
+}
