@@ -4,7 +4,7 @@
 测试命令行生成器的使用示例
 """
 
-from cli_generator import generate_image_from_config, generate_image_from_json
+from src.cli_generator import generate_image_from_config, generate_image_from_json
 
 def test_direct_config():
     """测试直接使用字典配置生成图片"""
