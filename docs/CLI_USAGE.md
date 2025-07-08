@@ -7,7 +7,7 @@
 ### 1. 生成示例配置文件
 
 ```bash
-python cli_generator.py --example
+python src/cli_generator.py --example
 ```
 
 这将创建一个 `example_config.json` 文件，包含完整的配置示例。
@@ -15,13 +15,13 @@ python cli_generator.py --example
 ### 2. 使用配置文件生成图片
 
 ```bash
-python cli_generator.py --config example_config.json
+python src/cli_generator.py --config example_config.json
 ```
 
 ### 3. 指定输出路径
 
 ```bash
-python cli_generator.py --config my_config.json --output my_image.png
+python src/cli_generator.py --config my_config.json --output my_image.png
 ```
 
 ## 命令行参数
@@ -125,12 +125,12 @@ image = generate_image_from_json("config.json", "output.png")
 
 ```bash
 # 1. 生成基础配置
-python cli_generator.py --example --example-output title_config.json
+python src/cli_generator.py --example --example-output title_config.json
 
 # 2. 编辑 title_config.json 文件，修改文字内容
 
 # 3. 生成图片
-python cli_generator.py --config title_config.json --output title.png
+python src/cli_generator.py --config title_config.json --output title.png
 ```
 
 ### 批量生成不同尺寸
@@ -151,9 +151,9 @@ python cli_generator.py --config title_config.json --output title.png
 然后批量生成：
 
 ```bash
-python cli_generator.py --config config_1080p.json --output image_1080p.png
-python cli_generator.py --config config_4k.json --output image_4k.png
-python cli_generator.py --config config_square.json --output image_square.png
+python src/cli_generator.py --config config_1080p.json --output image_1080p.png
+python src/cli_generator.py --config config_4k.json --output image_4k.png
+python src/cli_generator.py --config config_square.json --output image_square.png
 ```
 
 ## 注意事项

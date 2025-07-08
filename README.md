@@ -83,6 +83,8 @@ duration 4
 ./scripts/make_video.sh
 ```
 
+除此之外，`make_video.sh`文件还提供了别的使用方法，详情可参考文档.
+
 ## 文档
 
 更详细的指南和说明文档已经移至 `docs/` 目录。

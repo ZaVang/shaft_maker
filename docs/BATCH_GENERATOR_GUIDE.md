@@ -107,19 +107,19 @@ python batch_generator.py [options]
 
 ```bash
 # 使用提供的物语配置
-python batch_generator.py --config monogatari_scenes.json --output monogatari_scenes
+python src/batch_generator.py --config monogatari_scenes.json --output monogatari_scenes
 ```
 
 ### 创建自定义场景
 
 ```bash
 # 1. 生成基础配置模板
-python batch_generator.py --example --example-output my_scenes.json
+python src/batch_generator.py --example --example-output my_scenes.json
 
 # 2. 编辑 my_scenes.json，修改场景内容
 
 # 3. 批量生成
-python batch_generator.py --config my_scenes.json --output my_output
+python src/batch_generator.py --config my_scenes.json --output my_output
 ```
 
 ## 与单图生成器的关系

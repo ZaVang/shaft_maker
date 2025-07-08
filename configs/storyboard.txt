@@ -1,25 +1,25 @@
 # === 全局设置 ===
 [SETTINGS]
 # 分辨率   帧率   总时长(秒)
-1920x1080  30     14
+1920x1080  30     5.5
 
 # === 图片序列 ===
 # 开始时间(秒)  文件路径                         持续时间(秒)
 [IMAGES]
-0              monogatari_scenes/scene_01.png  1
-1              monogatari_scenes/scene_02.png  1
-2             monogatari_scenes/scene_03.png  1
-3             monogatari_scenes/scene_04.png  1
-4              monogatari_scenes/scene_05.png  1
-5              monogatari_scenes/scene_06.png  3
-8              monogatari_scenes/scene_07.png  2
-10              monogatari_scenes/scene_09.png  1
-11             monogatari_scenes/scene_10.png  1
-12              monogatari_scenes/scene_11.png  1
-13              monogatari_scenes/scene_12.png  1
+0              output/monogatari_scenes/scene_01.png  0.5
+0.5              output/monogatari_scenes/scene_02.png  0.5
+1             output/monogatari_scenes/scene_03.png  0.5
+1.5             output/monogatari_scenes/scene_04.png  0.5
+2              output/monogatari_scenes/scene_05.png  0.5
+2.5              output/monogatari_scenes/scene_06.png  0.5
+3             output/monogatari_scenes/scene_07.png  0.5
+3.5              output/monogatari_scenes/scene_09.png  0.5
+4             output/monogatari_scenes/scene_10.png  0.5
+4.5              output/monogatari_scenes/scene_11.png  0.5
+5              output/monogatari_scenes/scene_12.png  0.5
 
 
 # === 音频轨道 ===
 # 开始时间(秒)  文件路径      持续时间(秒)
 [AUDIO]
-0              test_bg.mp3   14
+0              assets/music/test_bg.mp3   5.5
