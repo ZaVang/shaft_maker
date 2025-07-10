@@ -9,3 +9,4 @@ __pycache__/
 fonts/
 test*
 output/
+.DS_Store

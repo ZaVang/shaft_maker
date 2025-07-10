@@ -223,6 +223,7 @@ def main():
     try:
         # 从JSON文件生成图片
         image = generate_image_from_json(args.config, args.output)
+        image.save(args.output, format='PNG')
         print("图片生成成功!")
         
     except Exception as e:
